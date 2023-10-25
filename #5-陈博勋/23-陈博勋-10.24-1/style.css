@@ -1,0 +1,323 @@
+* {
+    padding:0;
+    margin:0;
+}
+body {
+    background: linear-gradient(315deg,#ffffff 0%,#d7e1ec 94%);
+}
+.w {
+    width: 1000px;
+    margin:0 auto;
+}
+.header {
+    /* float:left; */
+    /*background-color: pink;*/
+    height: 66px;
+    /*background-color:#fff;*/
+    position: fixed;
+    background-color: #dae3ee;
+    width:100%;
+}
+.header .return {
+    width:150px;
+    display:block;
+    float:right;
+}
+.header .return:hover {
+    background-color:#fff;
+    border-radius:50px;
+    
+}
+    .header .return:hover a {
+        color: blue;
+    }
+.header2 {
+    
+    height: 66px;
+}
+/* 1920*1080 */
+    .header .name {
+        display: inline-block;
+        float: left;
+        width: 60px;
+        height: 60px;
+        margin:0 20px;
+        background-color: #d7e1ec;
+        overflow: hidden;
+        /*line-height: 66px;*/
+        /*color:black;*/
+        /*font-size: 24px;*/
+        /*margin:0 30px;*/
+        border-radius: 50px;
+    }
+.header .name .logo {
+    /*background:url(image/name-logo.png);*/
+    display:inline-block;
+    float:left;
+    width:60px;
+    height:60px;
+    overflow:hidden;
+    background:rgba(0,0,0,0.3);
+
+}
+.header .name span {
+    float:left;
+    line-height:60px;
+    text-indent:1.5em;
+}
+.header .name:hover {
+    width:160px;
+    background-color:#fff;
+}
+    .header .lianxi {
+        display: inline-block;
+        float: left;
+        width: 60px;
+        height: 60px;
+        margin:0 20px;
+        background-color: #d7e1ec;
+        overflow: hidden;
+        /*line-height: 66px;*/
+        /*color:black;*/
+        /*font-size: 24px;*/
+        /*margin:0 30px;*/
+        border-radius: 50px;
+    }
+.header .name .logo {
+    /*background:url(image/name-logo.png);*/
+    display:inline-block;
+    float:left;
+    width:60px;
+    height:60px;
+    overflow:hidden;
+
+}
+.header .name span {
+    float:left;
+    line-height:60px;
+    text-indent:1.5em;
+}
+.header .name:hover {
+    width:160px;
+    background-color:#fff;
+}
+    .header .name {
+        display: inline-block;
+        float: left;
+        width: 60px;
+        height: 60px;
+        margin: 0 20px;
+        background-color: #d7e1ec;
+        overflow: hidden;
+        /*line-height: 66px;*/
+        /*color:black;*/
+        /*font-size: 24px;*/
+        /*margin:0 30px;*/
+        border-radius: 50px;
+    }
+
+        .header .lianxi .logo {
+            /*background:url(image/name-logo.png);*/
+            display: inline-block;
+            float: left;
+            width: 60px;
+            height: 60px;
+            overflow: hidden;
+        }
+
+        .header .lianxi span {
+            float: left;
+            line-height: 60px;
+            text-indent: 1.5em;
+        }
+
+        .header .lianxi:hover {
+            width: 200px;
+            background-color: #fff;
+        }
+
+.header a {
+    display:block;
+    float:left;
+    width: 300px;
+    /*background-color: skyblue;*/
+    line-height: 66px;
+    color:black;
+    font-size: 24px;
+    margin:0 30px;
+    text-decoration: none;
+}
+/* .header a:hover {
+    
+} */
+.banner {
+    
+    display: block;
+    margin:0 auto;
+    /* width: 1536px; */
+    height: 751px;
+    /*background-color: pink;*/
+    background-image: url("image/head.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+/* 图片展示阶段 */
+.row {
+    height: 320px;
+    display: block;
+    /*background: skyblue;*/
+    margin-top: 20px;
+}
+.showphoto {
+    /*background-color:pink;*/
+}
+/*.showphoto .picture {
+    float:left;
+    width:600px;
+    height:412px;
+    background-color:green;
+
+}*/
+
+/*4032*3016*/
+
+.showphoto .top {
+    margin:90px 0;
+    height:45px;
+    /*background-color:purple;*/
+}
+/*.showphoto .speech {
+    margin-top:0;
+}*/
+.top {
+    margin-top:90px;
+}
+.top h3 {
+    display:block;
+    height:45px;
+    line-height:45px;
+    padding-left:20px;
+}
+li {
+    list-style: none;
+}
+.showphoto .speech ul {
+    display:block;
+    /*width: 1250px;*/
+}
+.showphoto ul li {
+    display: block;
+    float: left;
+    width: 220px;
+    /*height: 280px;*/
+    background-color: #e8e8ec;
+    margin: 20px 20px 0 0;
+}
+
+ .showphoto ul li:hover {
+        background-color: #c9e2f0;
+ }
+ p {
+     font-size:18px;
+     text-indent:2em;
+     margin-bottom:15px;
+ }
+.learning .progress .line {
+    height:200px;
+    /*background-color:pink;*/
+    margin:10px 0;
+}
+.learning .progress .line span {
+    display:block;
+    float:left;
+    width:400px;
+    height:200px;
+    overflow:hidden;
+    background-color:skyblue;
+    margin-right:20px;
+}
+.bottom {
+    display: block;
+    margin-top: 40px;
+    height: 400px;
+    background-color: #f6f6f6;
+}
+.banner .subnav {
+    display: block;
+    float: left;
+    width: 220px;
+    height: 412px;
+    
+}
+.banner .subnav li {
+    /*color:#fff;*/
+    height: 69px;
+    line-height: 69px;
+    padding: 7px 15px;
+    /* background-color: pink; */
+    background-color: rgba(0,0,0,0.3);
+}
+
+.banner .subnav li a {
+    display:block;
+    font-size: 18px;
+    width:220px;
+    font-weight:800;
+    color: #fff;
+    text-decoration:none;
+    /* background-color: pink; */
+}
+
+.banner .subnav li:hover {
+    background-color: orange;
+}
+
+.banner .subnav li:hover a {
+    color:#00a4ff;
+}
+
+.row2 {
+    height: 600px;
+    /*background-color: pink;*/
+    display: block;
+    /*background: skyblue;*/
+    margin-top: 20px;
+}
+/*.showphoto .music ul li a span {
+    display: block;
+    width: 220px;
+    height: 240px;
+    background: url(image/yishujie.jpg);
+}*/
+.showphoto .mini {
+    display:block;
+    width:220px;
+    height:190px;
+    overflow:hidden;
+}
+.showphoto ul li span {
+    display:block;
+    height:80px;
+    /*background-color:skyblue;*/
+}
+.showphoto ul li span h3 {
+    text-indent:2em;
+    line-height:80px;
+}
+.top h3 {
+    font-size:28px;
+}
+.bottom .text {
+    float:left;
+    /*line-height:400px;*/
+    display:block;
+    width:580px;
+    padding:100px 20px 0 0;
+    /*background-color:pink;*/
+}
+.bottom .baituo {
+    float:left;
+    display:block;
+    width:400px;
+    overflow:hidden;
+}
